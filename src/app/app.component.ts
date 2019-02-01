@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  loadedTag = 'recipe';
+
+  onNavigate(tag: string) {
+    this.loadedTag = tag;
+  }
+
 }
