@@ -7,9 +7,4 @@ import {Component, EventEmitter, Output} from '@angular/core';
 })
 export class HeaderComponent {
 
-  @Output() tagSelected = new EventEmitter<string>();
-
-  onSelect(tag: string) {
-    this.tagSelected.emit(tag);
-  }
 }
